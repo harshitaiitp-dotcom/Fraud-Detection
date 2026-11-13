@@ -1,0 +1,7 @@
+# Core dependencies for Elliptic Synthetic Data Generation
+numpy>=1.22.0
+pandas>=1.4.0
+torch>=1.13.0
+scikit-learn>=1.0.0
+networkx>=2.8.0
+matplotlib>=3.5.0
