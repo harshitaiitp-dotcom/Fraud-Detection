@@ -1,0 +1,42 @@
+{
+  "_format": "hh3-sol-build-info-1",
+  "id": "solc-0_8_34-4827b2535bb79c7ca3204421c6fed153b7b0b88f",
+  "solcVersion": "0.8.34",
+  "solcLongVersion": "0.8.34+commit.80d5c536",
+  "compilerType": "solc",
+  "userSourceNameMap": {
+    "contracts/FraudRegistry.sol": "project/contracts/FraudRegistry.sol"
+  },
+  "input": {
+    "language": "Solidity",
+    "settings": {
+      "evmVersion": "osaka",
+      "outputSelection": {
+        "*": {
+          "": [
+            "ast"
+          ],
+          "*": [
+            "abi",
+            "evm.bytecode.linkReferences",
+            "evm.bytecode.object",
+            "evm.bytecode.opcodes",
+            "evm.bytecode.sourceMap",
+            "evm.deployedBytecode.immutableReferences",
+            "evm.deployedBytecode.linkReferences",
+            "evm.deployedBytecode.object",
+            "evm.deployedBytecode.opcodes",
+            "evm.deployedBytecode.sourceMap",
+            "evm.methodIdentifiers"
+          ]
+        }
+      },
+      "remappings": []
+    },
+    "sources": {
+      "project/contracts/FraudRegistry.sol": {
+        "content": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.0;\r\n\r\ncontract FraudRegistry {\r\n    mapping(address => bool) public blacklistedAddresses;\r\n    event FraudLogged(address indexed account, uint256 riskScore, string reason);\r\n\r\n    function flagFraudulentAccount(address account, uint256 riskScore, string memory reason) public {\r\n        if (riskScore > 85) {\r\n            blacklistedAddresses[account] = true;\r\n        }\r\n        emit FraudLogged(account, riskScore, reason);\r\n    }\r\n\r\n    function checkStatus(address account) public view returns (bool) {\r\n        return blacklistedAddresses[account];\r\n    }\r\n}"
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "C:\\Users\\harsh\\OneDrive\\Desktop\\New folder (4)\\contracts\\FraudRegistry.sol": {
+    "jobHash": "solc-0_8_34-4827b2535bb79c7ca3204421c6fed153b7b0b88f",
+    "isolated": false,
+    "compilerType": "solc",
+    "artifactPaths": [
+      "C:\\Users\\harsh\\OneDrive\\Desktop\\New folder (4)\\artifacts\\contracts\\FraudRegistry.sol\\FraudRegistry.json"
+    ],
+    "buildInfoPath": "C:\\Users\\harsh\\OneDrive\\Desktop\\New folder (4)\\artifacts\\build-info\\solc-0_8_34-4827b2535bb79c7ca3204421c6fed153b7b0b88f.json",
+    "buildInfoOutputPath": "C:\\Users\\harsh\\OneDrive\\Desktop\\New folder (4)\\artifacts\\build-info\\solc-0_8_34-4827b2535bb79c7ca3204421c6fed153b7b0b88f.output.json",
+    "typeFilePath": "C:\\Users\\harsh\\OneDrive\\Desktop\\New folder (4)\\artifacts\\contracts\\FraudRegistry.sol\\artifacts.d.ts",
+    "wasm": false,
+    "artifactsDirectory": "C:\\Users\\harsh\\OneDrive\\Desktop\\New folder (4)\\artifacts",
+    "emitsTypeDeclarations": true
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "New folder (4)",
+  "version": "1.0.0",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "hardhat": "^3.22.0",
+    "typescript": "~6.0.3"
+  }
+}
