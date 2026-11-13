@@ -5,3 +5,10 @@ torch>=1.13.0
 scikit-learn>=1.0.0
 networkx>=2.8.0
 matplotlib>=3.5.0
+streamlit
+numpy
+pandas
+scikit-learn
+shap
+torch
+torch-geometric
